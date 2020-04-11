@@ -138,6 +138,21 @@
 <pad name="8GND" x="3.81" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="SELECT" x="6.35" y="0" drill="0.9" shape="long" rot="R90"/>
 <pad name="START" x="8.89" y="0" drill="0.9" shape="long" rot="R90"/>
+<wire x1="-10.16" y1="2.54" x2="-10.16" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="5.08" y1="-2.54" x2="10.16" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.127" layer="22"/>
+<wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="22"/>
+<wire x1="5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="22"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
+<text x="-8.89" y="-2.54" size="1.27" layer="25" rot="MR90" align="center-right">1 UP</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">2 DN</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">3 LF</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">4 RT</text>
+<text x="1.27" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">6 Fire</text>
+<text x="3.81" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">8 GND</text>
+<text x="6.35" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">Select</text>
+<text x="8.89" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">Start</text>
 </package>
 <package name="TOGGLESWITCH_SPDT_SMALL_90DEG">
 <pad name="A" x="-2" y="0" drill="0.9" shape="offset" rot="R270"/>
