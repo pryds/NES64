@@ -62,11 +62,11 @@
 <library name="Thomas">
 <packages>
 <package name="RUBBERBUTTON_CONTACTAREA_9MM">
-<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="4.699" width="0.127" layer="21"/>
 <text x="3.81" y="-3.81" size="1.27" layer="25" align="top-left">&gt;NAME</text>
 <smd name="A" x="-5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
 <smd name="B" x="5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
-<circle x="0" y="0" radius="2.54" width="3.81" layer="29"/>
+<circle x="0" y="0" radius="2.159" width="4.445" layer="29"/>
 <circle x="0" y="0" radius="2.54" width="3.81" layer="39"/>
 <polygon width="0.127" layer="1">
 <vertex x="-3.175" y="0"/>
@@ -140,9 +140,9 @@
 <pad name="START" x="8.89" y="0" drill="0.9" shape="long" rot="R90"/>
 </package>
 <package name="TOGGLESWITCH_SPDT_SMALL_90DEG">
-<pad name="A" x="-2.54" y="0" drill="0.9" shape="offset" rot="R270"/>
+<pad name="A" x="-2" y="0" drill="0.9" shape="offset" rot="R270"/>
 <pad name="N" x="0" y="0" drill="0.9" shape="offset" rot="R270"/>
-<pad name="B" x="2.54" y="0" drill="0.9" shape="offset" rot="R270"/>
+<pad name="B" x="2" y="0" drill="0.9" shape="offset" rot="R270"/>
 <wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.127" layer="21"/>
@@ -153,8 +153,8 @@
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="5.08" width="0.127" layer="25"/>
 <wire x1="-1.27" y1="5.08" x2="0" y2="5.08" width="0.127" layer="25"/>
 <wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.127" layer="25"/>
-<pad name="GND@1" x="-5.08" y="0" drill="1.3" shape="square"/>
-<pad name="GND@2" x="5.08" y="0" drill="1.3" shape="square"/>
+<pad name="GND@1" x="-4" y="0" drill="1.3" shape="square"/>
+<pad name="GND@2" x="4" y="0" drill="1.3" shape="square"/>
 </package>
 </packages>
 <symbols>
@@ -282,7 +282,7 @@
 <part name="A" library="Thomas" deviceset="RUBBERBUTTON_CONTACTAREA_9MM" device=""/>
 <part name="B" library="Thomas" deviceset="RUBBERBUTTON_CONTACTAREA_9MM" device=""/>
 <part name="CN1" library="Thomas" deviceset="NES64_CONNECTOR" device=""/>
-<part name="A/UP" library="Thomas" deviceset="TOGGLESWITCH_SPDT_SMALL_90DEG" device=""/>
+<part name="SW_A/UP" library="Thomas" deviceset="TOGGLESWITCH_SPDT_SMALL_90DEG" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -316,8 +316,8 @@
 <instance part="CN1" gate="G$1" x="129.54" y="30.48" smashed="yes">
 <attribute name="NAME" x="129.54" y="10.16" size="1.778" layer="95" align="top-center"/>
 </instance>
-<instance part="A/UP" gate="G$2" x="106.68" y="76.2" smashed="yes"/>
-<instance part="A/UP" gate="G$1" x="106.68" y="66.04" smashed="yes" rot="R90">
+<instance part="SW_A/UP" gate="G$2" x="106.68" y="76.2" smashed="yes"/>
+<instance part="SW_A/UP" gate="G$1" x="106.68" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="104.14" y="63.5" size="1.778" layer="95" rot="R90" align="bottom-right"/>
 </instance>
 </instances>
@@ -405,7 +405,7 @@
 <pinref part="UP" gate="G$1" pin="A"/>
 <wire x1="-10.16" y1="83.82" x2="-10.16" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="63.5" x2="-7.62" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="A/UP" gate="G$1" pin="A"/>
+<pinref part="SW_A/UP" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -431,13 +431,13 @@
 <pinref part="A" gate="G$1" pin="A"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="88.9" x2="111.76" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="A/UP" gate="G$1" pin="B"/>
+<pinref part="SW_A/UP" gate="G$1" pin="B"/>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="A/UP" gate="G$1" pin="N"/>
+<pinref part="SW_A/UP" gate="G$1" pin="N"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="1UP"/>
 <wire x1="106.68" y1="50.8" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
