@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
@@ -128,7 +128,7 @@ for C64, Amiga, Atari</text>
 <text x="21.59" y="8.89" size="1.27" layer="22" rot="MR0" align="top-left">6</text>
 <text x="16.51" y="21.59" size="1.27" layer="22" rot="MR0" align="bottom-center">9 pin female DSUB plug
 seen from solder side</text>
-<text x="49.53" y="19.05" size="1.27" layer="22" rot="MR0" align="center-left">DSUB9 Pins
+<text x="48.26" y="19.05" size="1.27" layer="22" rot="MR0" align="center-left">DSUB9 Pins
 1: Up
 2: Down
 3: Left
@@ -138,10 +138,10 @@ seen from solder side</text>
 7: +5V, max 100 mA
 8: GND
 9: POT X</text>
-<wire x1="50.8" y1="30.48" x2="50.8" y2="7.62" width="0.1524" layer="22"/>
-<wire x1="50.8" y1="7.62" x2="30.48" y2="7.62" width="0.1524" layer="22"/>
-<wire x1="30.48" y1="7.62" x2="30.48" y2="30.48" width="0.1524" layer="22"/>
-<wire x1="30.48" y1="30.48" x2="50.8" y2="30.48" width="0.1524" layer="22"/>
+<wire x1="49.53" y1="30.48" x2="49.53" y2="7.62" width="0.1524" layer="22"/>
+<wire x1="49.53" y1="7.62" x2="29.21" y2="7.62" width="0.1524" layer="22"/>
+<wire x1="29.21" y1="7.62" x2="29.21" y2="30.48" width="0.1524" layer="22"/>
+<wire x1="29.21" y1="30.48" x2="49.53" y2="30.48" width="0.1524" layer="22"/>
 <text x="1.27" y="45.72" size="1.778" layer="51" align="top-left">Board thickness: 1.6 mm</text>
 <text x="106.68" y="13.97" size="1.4224" layer="22" rot="MR0">For use in NES controller to make it
 compatible with Commodore 64,
@@ -153,6 +153,9 @@ supported by these computers
 but pads are provided for convenience.</text>
 <text x="92.71" y="40.64" size="1.27" layer="21" font="vector" rot="R90" align="center-right">UP↑
 A↓</text>
+<text x="48.26" y="20.32" size="1.6764" layer="21" align="bottom-center">nes64.pryds.eu</text>
+<circle x="17.018" y="16.002" radius="1.778" width="0" layer="1"/>
+<text x="16.51" y="27.94" size="1.6764" layer="22" rot="MR0" align="bottom-center">Pinout</text>
 </plain>
 <libraries>
 <library name="Thomas">
@@ -162,8 +165,8 @@ A↓</text>
 <text x="3.81" y="-3.81" size="1.27" layer="25" align="top-left">&gt;NAME</text>
 <smd name="A" x="-5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
 <smd name="B" x="5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
-<circle x="0" y="0" radius="2.159" width="4.445" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="3.81" layer="39"/>
+<circle x="0" y="0" radius="4.445" width="0" layer="29"/>
+<circle x="0" y="0" radius="4.572" width="0" layer="39"/>
 <polygon width="0.127" layer="1">
 <vertex x="-3.175" y="0"/>
 <vertex x="2.54" y="0"/>
@@ -241,7 +244,7 @@ A↓</text>
 <wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="22"/>
 <wire x1="5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="22"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
-<text x="-8.89" y="-2.54" size="1.27" layer="25" rot="MR90" align="center-right">1 UP</text>
+<text x="-8.89" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">1 UP</text>
 <text x="-6.35" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">2 DN</text>
 <text x="-3.81" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">3 LF</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">4 RT</text>

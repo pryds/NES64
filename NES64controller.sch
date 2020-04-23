@@ -66,8 +66,8 @@
 <text x="3.81" y="-3.81" size="1.27" layer="25" align="top-left">&gt;NAME</text>
 <smd name="A" x="-5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
 <smd name="B" x="5.08" y="0" dx="1.27" dy="1.27" layer="1" roundness="100"/>
-<circle x="0" y="0" radius="2.159" width="4.445" layer="29"/>
-<circle x="0" y="0" radius="2.54" width="3.81" layer="39"/>
+<circle x="0" y="0" radius="4.445" width="0" layer="29"/>
+<circle x="0" y="0" radius="4.572" width="0" layer="39"/>
 <polygon width="0.127" layer="1">
 <vertex x="-3.175" y="0"/>
 <vertex x="2.54" y="0"/>
@@ -145,7 +145,7 @@
 <wire x1="10.16" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="22"/>
 <wire x1="5.08" y1="2.54" x2="-10.16" y2="2.54" width="0.127" layer="22"/>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.127" layer="22"/>
-<text x="-8.89" y="-2.54" size="1.27" layer="25" rot="MR90" align="center-right">1 UP</text>
+<text x="-8.89" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">1 UP</text>
 <text x="-6.35" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">2 DN</text>
 <text x="-3.81" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">3 LF</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="26" rot="MR90" align="center-right">4 RT</text>
@@ -462,7 +462,7 @@
 </sheet>
 </sheets>
 <errors>
-<approved hash="101,1,106.68,76.2,A/UPG$2,GND,,,,"/>
+<approved hash="101,1,106.68,76.2,SW_A/UPG$2,GND,,,,"/>
 </errors>
 </schematic>
 </drawing>
