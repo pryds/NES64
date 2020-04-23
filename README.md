@@ -39,15 +39,15 @@ necessary parts directly from the author.
 
 ### Necessary parts
 
-* **The NES64 board** itself.
+* The **NES64 board** itself.
 * **NES controller casing**, either from an original NES controller or a more current reproduction.
-* **Appr. 2 metres of cable**, at least 6 leads. Nearly anything will do, but not much thicker
+* Appr. **2 metres of cable**, at least 6 leads. Nearly anything will do, but not much thicker
   than 5 mm and something relatively flexible is recommended. Ethernet cable works fine, but may
   be a bit too stiff for comfortable use, expecially the shielded types. Control cable is another option.
 * **9 pin D-sub connector** (DE-9), female. See if you can get a narrow version without the screws at the
   sides. That may be hard to find, though, so you may have to alter the your connector casing to fit your
   computer. Alternatively, get a cable-and-plug from a broken and non-salvageable Atari/Commodore joystick.
-* Optionally: 2-position horizontal microswitch, 5 pins, 3 mm pin pitch. These should come plenty from your
+* Optionally: **2-position horizontal microswitch**, 5 pins, 3 mm pin pitch. These should come plenty from your
   local electronics store or even from EBay.
 * Basic **soldering skills** and equipment.
 
