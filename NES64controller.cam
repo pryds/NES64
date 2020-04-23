@@ -1,7 +1,7 @@
 {
     "author": {
-        "email": "support.eagle@autodesk.com",
-        "name": "Autodesk EAGLE"
+        "email": "thomas@pryds.eu",
+        "name": "Thomas Thomas"
     },
     "description": {
         "EN": "EAGLE default 2 layer CAM job."
@@ -101,7 +101,6 @@
                     "layers": [
                         29
                     ],
-                    "milling": false,
                     "name": "Soldermask Top",
                     "polarity": "positive",
                     "type": "gerber_layer"
@@ -197,7 +196,7 @@
             ]
         }
     ],
-    "timestamp": "2018-09-15T00:00:00",
+    "timestamp": "2020-04-23T22:18:14",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
